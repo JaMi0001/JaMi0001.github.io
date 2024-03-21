@@ -1,7 +1,17 @@
 body {
-  background-color: lightblue;
+	background-color: #f0f0f0;
+}
+
+img {
+	max-width:100%;
+	border-radius: 8px;
+	opacity: 0.9;
+	filter: grayscale(20%);
 }
 
 h1 {
-  color: red;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 24px;
+	color: #336699
 }
