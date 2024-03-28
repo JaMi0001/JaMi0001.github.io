@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <meta charset="UTF-8">
+    <title>Hero Search</title>
+  </head>
+  <body>
+    <h1>Hero Search</h1>  
+    <form action="https://www.google.com/search" method="GET">
+      <p>
+        <lable for="selectsuperheroes">Select a Super Hero:</lable>
+        <select name="q" id="selectsuperhero">
+          <option value="batman">Batman</option>
+          <option value="ironman">Ironman</option>
+          <option value="spider-man">Spider-Man</option>
+          <option value="flash">Flash</option>
+          <option value="blackpanther">Black Panther</option>
+          <option value="greenlantern">Green Lantern</option>
+          <option value="deadpool">Deadpool</option>
+          <option value="superman">Super Man</option>
+        </select>
+      </p>
+    <fieldset>
+      <p>
+        <lable for="radiopng">PNG</lable>
+        <input type="radio" name="as_filetype" value="png" id="radiopng">
+      </p>
+      <p>
+        <lable for="radiopng">JPG</lable>
+        <input type="radio" name="as_filetype" value="jpg" id="radiopng">
+      </p>
+      <p>
+        <lable for="radiopng">GIF</lable>
+        <input type="radio" name="as_filetype" value="gif" id="radiopng">
+      </p>
+    </fieldset>
+    <br>
+    <fieldset>
+      <p>
+        <label for="Bookocheck">Book</label>
+        <input type="checkbox" name="tbm" value="bks" id="Bookcheck">
+      </p>
+      <p>
+        <label for="Videocheck">Video</label>
+        <input type="checkbox" name="tbm" value="vid" id="videocheck">
+      </p>
+      <p>
+        <label for="Shopcheck">Shop</label>
+        <input type="checkbox" name="tbm" value="shop" id="Shopcheck">
+      </p>
+      <p style="display:show">
+          <label for="Imagecheck">Images</label>
+          <input type="checkbox" name="tbm" value="isch" id="imagecheck">
+      </p>
+    </fieldset>
+    <br>
+      <p>
+        <input type="submit" value="Find Hero">
+      </p>
+    </form>
+  </body>
+</html>
