@@ -12,6 +12,7 @@ img {
 h1 {
 	text-decoration: underline;
 	font-weight: bold;
+	font-style: oblique;
 	font-size: 24px;
 	color: #05aaf7
 }
@@ -20,12 +21,12 @@ h2
 	text-decoration: underline;
 	font-weight: italic;
 	font-size: 20px;
-	color: #ff6600
+	color: #105ff3
 }
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	color: green;
+	color: rgb(224, 82, 82);
 	font-size: large;
 	padding-left: 46px;
 }
@@ -40,4 +41,3 @@ li
     margin-left: 3vw;
     margin-right: 3vw;
 }
-
